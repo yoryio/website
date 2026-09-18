@@ -19,8 +19,9 @@ $grey-color-dark:  #c9d1d9;
 // $grey-color-dark doubles as the site-title text color and this
 // top border, so on dark backgrounds the border needs its own color
 // instead of inheriting that light value (it read as a stray white bar).
+// Match the page background so it blends in rather than standing out.
 .site-header {
-  border-top-color: $brand-color;
+  border-top-color: $background-color;
 }
 
 // minima hardcodes a light background for inline code / code blocks
