@@ -1,13 +1,8 @@
+theme: minima
 title: yoryo
-tagline: Threat intelligence & adversary-infrastructure research
 description: >-
-  Adversary-infrastructure tracking, initial-access and N-day analysis,
-  and threat intelligence — with a focus on Latin America. 
+  Threat intelligence & adversary-infrastructure research. Adversary-infrastructure
+  tracking, initial-access and N-day analysis, and threat intelligence — with a
+  focus on Latin America.
 url: "https://yoryio.github.io"
-github:
-  username: yoryio
-social:
-  name: yoryo
-  email: ""
-  links:
-    - https://github.com/yoryio
+github_username: yoryio
