@@ -6,3 +6,13 @@ description: >-
   focus on Latin America.
 url: "https://yoryio.github.io"
 github_username: yoryio
+
+# Posts in _posts/ don't render with any layout (and so get no CSS,
+# header, or nav) unless one is set. Apply `post` by default instead of
+# requiring every post's front matter to declare it.
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
