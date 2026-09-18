@@ -16,6 +16,13 @@ $grey-color-dark:  #c9d1d9;
 
 @import "minima";
 
+// $grey-color-dark doubles as the site-title text color and this
+// top border, so on dark backgrounds the border needs its own color
+// instead of inheriting that light value (it read as a stray white bar).
+.site-header {
+  border-top-color: $brand-color;
+}
+
 // minima hardcodes a light background for inline code / code blocks
 // instead of deriving it from a variable, so it needs a manual override.
 pre,
